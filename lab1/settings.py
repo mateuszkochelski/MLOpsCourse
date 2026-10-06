@@ -11,8 +11,8 @@ class Settings(BaseSettings):
     API_KEY: str
 
 
-def load_settings() -> Settings:
-    with open("secrets.yaml") as file:
+def load_settings(secrets_path: str = "secrets.yaml") -> Settings:
+    with open(secrets_path) as file:
         secrets = yaml.safe_load(file)
 
     return Settings(**secrets)
