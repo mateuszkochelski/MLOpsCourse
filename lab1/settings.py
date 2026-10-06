@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    ENVIRONMENT: Literal["dev", "test", "prod"]
+    ENVIRONMENT: Literal["dev", "test", "prod"]  # easier way to validate
     APP_NAME: str
     API_KEY: str
 
