@@ -1,4 +1,4 @@
-from api.models.irys import PredictRequest, PredictResponse
+from api.models.iris import PredictRequest, PredictResponse
 from fastapi import FastAPI
 from inference import load_model, predict_iris
 
