@@ -221,3 +221,6 @@ __marimo__/
 
 *.decrypted.yaml
 *.joblib
+
+*.model
+.DS_STORE

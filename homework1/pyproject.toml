@@ -1,0 +1,22 @@
+[project]
+name = "homework1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "clean-text>=0.7.1",
+    "fastapi>=0.142.2",
+    "joblib>=1.6.0",
+    "pydantic>=2.13.5",
+    "scikit-learn==1.7.2",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.14.1",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.13.1",
+    "pytest>=9.1.1",
+]
