@@ -159,6 +159,14 @@ ENV/
 env.bak/
 venv.bak/
 
+# Course data and generated artifacts
+lab2/data/*
+!lab2/data/
+!lab2/data/services_table.sql
+homework2/data/
+homework2/.tmp/
+link.txt
+
 # Spyder project settings
 .spyderproject
 .spyproject
