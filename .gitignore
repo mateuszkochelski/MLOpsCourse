@@ -167,6 +167,7 @@ homework2/data/
 homework2/.tmp/
 link.txt
 lab3/data/*
+homework3/data/1.parquet
 
 # Spyder project settings
 .spyderproject
